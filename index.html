@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header class="title">
+        <h1>Imma let you finish</h1>
+    </header>
+    <section>
+        <div class="controls">
+            <label for="move">Kanye:</label>
+            <input type="range" name="move" min="-650" max="0" value="-650" class="slider" data-sizing="px">
+
+            <label for="reaction">Beyonce:</label>
+            <input type="range" name="reaction" min="0" max="250" value="250" class="slider" data-sizing="px">
+
+            <label for="blur">Blur:</label>
+            <input type="range" name="blur" min="0" max="20" value="0" class="slider" data-sizing="px">
+
+            <label for="frame">Frame:</label>
+            <input type="color" name="frame" value="#fde720">
+
+        </div>
+        <div class="frame">
+            <div class="image">
+                <img id='swift' src="./img/swift.jpg" alt="Swift">
+                <img id='kanye' src="./img/kanye.png" alt="Kanye">
+                <img id='beyonce' src="./img/beyonce.gif" alt="beyonce">
+            </div>
+        </div>
+    </section>
+</div>
+<script src="script.js"></script>    
+</body>
+</html>
